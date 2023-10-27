@@ -1,5 +1,5 @@
 {% set name = "unbaffeld" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/UNBAFFELD-{{ version }}.tar.gz
-  sha256: fce9ba4e328d08161030da3d9aea5ffb45d262672fb39249ea2fd2df3427e42b
+  sha256: d069c39ba5a3a6f195f4fbb839cc72fd79e7ce8f18a73817dbcd845769b351b9
 
 build:
   number: 0
@@ -43,7 +43,7 @@ about:
   license_family: BSD
   license_file: LICENSE
   summary: "UNBAFFELD: UNified Bayesian Analysis Framework for Fusion ExperimentaL Data"
-  doc_url: 
+  doc_url:
   dev_url: http://www.gitlab.com/efit-ai/unbaffeld
 
 extra:
